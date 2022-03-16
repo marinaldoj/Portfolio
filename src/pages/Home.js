@@ -8,6 +8,7 @@ import OtherWorks from "../components/Layers/OtherWorks";
 import Contacts from "../components/Layers/Contacts";
 
 export default function Home(){
+
   return(
     <>
       <Profile/>

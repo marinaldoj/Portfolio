@@ -18,9 +18,14 @@ import {
 } from './styles'
 
 export default function Profile(){
+
+  function scrollSmothDown(value){
+    window.scrollTo({top: value, behavior:"smooth"} );
+  }
+
   return(
     <Content>
-      <ButtonDown href="#Knowledge"> <FaAngleDown size={50}/></ButtonDown>
+      <ButtonDown onClick={() => scrollSmothDown(750)}> <FaAngleDown size={50}/></ButtonDown>
       <Wave setColor="#CC7378" />
       <Container>
         <ContainerImage>
