@@ -25,7 +25,6 @@ export const ContainerBalls = styled.div`
   width: 100%;
   height: 90%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 40px;
@@ -49,6 +48,8 @@ export const Balls = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 80px;
+  margin-top: 60px;
 `
 
 export const Image = styled.img`
