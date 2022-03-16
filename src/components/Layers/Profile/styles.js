@@ -1,4 +1,9 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+
+const AnimationDown = keyframes`
+  from {transform: translateY(0px);}
+  to {transform: translateY(10px);}
+`
 
 export const Content = styled.div`
   width: 100%;
@@ -82,6 +87,6 @@ export const ButtonDown = styled.a`
   color: #fff;
   transition: 0.2s;
   :hover{
-    transform: translateY(10px);
+    animation: ${AnimationDown} 1s alternate infinite;
   }
 `

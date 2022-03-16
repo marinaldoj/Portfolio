@@ -6,6 +6,10 @@ export const Svg = styled.svg`
   position: absolute;
   bottom: 0;
   z-index: 2;
+  @media(min-width: 1200px){
+    width: 100%;
+
+  }
 `
 
 export const Path = styled.path``
