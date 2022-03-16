@@ -40,6 +40,12 @@ export const Circle = styled.div`
   height: 330px;
   border-radius: 100%;
   background-color: #fff;
+  padding: 2px 0 0 2px ;
+`
+
+export const Image = styled.img`
+  width: 98%;
+  height: 98%;
 `
 
 export const ContainerName = styled.div`

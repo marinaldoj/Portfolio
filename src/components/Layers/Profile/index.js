@@ -1,6 +1,7 @@
 import React from "react";
 import Wave from "../../Wave";
 import {FaAngleDown} from 'react-icons/fa'
+import myPhoto from '../../../assets/image.png';
 
 
 import {
@@ -12,7 +13,8 @@ import {
   Circle,
   Name,
   Office,
-  ButtonDown
+  ButtonDown,
+  Image
 } from './styles'
 
 export default function Profile(){
@@ -23,7 +25,7 @@ export default function Profile(){
       <Container>
         <ContainerImage>
           <Circle>
-
+            <Image src={myPhoto} />
           </Circle>
         </ContainerImage>
         <Texts>
